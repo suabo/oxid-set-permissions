@@ -1,6 +1,8 @@
 #!/bin/bash
 if [ -f $1/pkg.rev ]; then
-
+        echo "Leere Shop Cache..."
+        rm $1/tmp/* 2> /dev/null
+        rm $1/tmp/smarty/* 2> /dev/null
         chmod 777 -R $1/out/pictures/
         chmod 777 -R $1/out/media/
         chmod 777 -R $1/log/
