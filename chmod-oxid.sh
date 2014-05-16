@@ -17,7 +17,7 @@ if [ -f $1/pkg.rev ]; then
                 chmod 444 $1/.htaccess
                 echo "Setze Berechtigungen für OXID live Betrieb."
         fi
-        echo "Done.\n"
+        echo "Done."
 else    
         echo "Warning:"
         if [ "$1" != "" ]; then
