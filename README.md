@@ -7,6 +7,10 @@ Deutsch:
 Setzt die Berechtigunen für OXID eShop und erkennt dabei automatisch ob es sich um eine Installation oder
 um einen live Betrieb handelt.
 
+## Download ##
+
+    wget https://raw.githubusercontent.com/suabo/oxid-set-permissions/master/chmod-oxid.sh
+
 ## Usage ##
 
     sh chmod-oxid.sh /path/to/oxid/root/
