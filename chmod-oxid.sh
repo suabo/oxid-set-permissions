@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -f $1/pkg.rev ]; then
+if [ -f $1/config.inc.php ] && [ -f $1/bootstrap.php ]; then
         echo "Leere Shop Cache..."
         rm $1/tmp/* 2> /dev/null
         rm $1/tmp/smarty/* 2> /dev/null
